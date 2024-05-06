@@ -217,13 +217,7 @@ def restart_quiz():
     finishResult_label.pack_forget()
     create_widgets()
     result_var.set("")
-    # question_label.pack()
-    # equation_label.pack()  # Show equation label
-    # # Show next button
-    # answer_entry.pack()  # Show answer entry
-    # next_button.pack()
-    # result_label.pack()
-    # quiter.pack(side="bottom", pady=10, padx=10, anchor="se")  # Show quit button
+    
     new_equation()
 
 
